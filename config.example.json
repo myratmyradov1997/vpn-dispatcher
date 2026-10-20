@@ -1,0 +1,14 @@
+{
+  "servers": [
+    {"name": "example", "host": "example.com", "role": "нода"},
+    {"name": "example2", "host": "192.0.2.10", "role": "нода-резерв"}
+  ],
+  "panels": [
+    {"title": "Пример-панель", "url": "https://example.com/"}
+  ],
+  "paths": {
+    "log": "/Users/me/automation/logs/health.log",
+    "problems": "/Users/me/automation/logs/health-last-problem.txt",
+    "checker": "/Users/me/automation/server_health.py"
+  }
+}
